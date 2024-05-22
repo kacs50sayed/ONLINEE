@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/login1.css">
+    <link rel="preconnect" href="https://fonts.googlepis.com">
+    <link rel="preconnect" href="https:fonts.gstatic.com" crossorigin="">
+    <link rel="https://fonts.googleapis.com/css2?family=cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">انشئ الحساب</div>
+        <form action="" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <label class="details"> الاسم الاول</label>
+                    <input type="text" required placeholder="الاسم الاول">
+                </div>
+                <div class="input-box">
+                    <label class="details"> الاسم الثاني</label>
+                    <input type="text" required placeholder="الاسم الثاني">
+                </div>
+                <div class="input-box">
+                    <label class="details"> البريد الالكتروني </label>
+                    <input type="email" required placeholder="البريد الالكتروني">
+                </div>
+                <div class="input-box">
+                    <label class="details"> رقم الموبايل</label>
+                    <input type="text" required placeholder="رقم الموبايل" minlength="11" maxlength="11">
+                </div>
+                <div class="input-box">
+                    <label class="details"> كلمة المرور</label>
+                    <input type="password" required placeholder="كلمة المرور" minlength="10" maxlength="20">
+                </div>
+                <div class="input-box">
+                    <label class="details"> تاريخ الميلاد</label>
+                    <input type="date" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <label class="gender-title">النوع</label>
+                <div class="category">
+                    <label for="">
+                        <input type="radio" name="النوع">
+                        <label class="gender">ذكر</label>
+                    </label>
+                    <label for="">
+                        <input type="radio" name="النوع">
+                        <label class="gender">انثي</label>
+                    </label>
+                </div>
+            </div>
+            <div class="link">
+                <input type="submit" value="تسجيل" />
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
